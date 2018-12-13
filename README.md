@@ -34,7 +34,7 @@ A program aimed to make adding external audio tracks to a video in [VLC](https:/
  Того же самого эффекта можно добиться в графическом интерфейсе VLC, если открыть меню Файл -> Открыть несколько файлов, нажать "Показать больше опций" и "Проигрывать синхронно", а затем выбрать нужные аудио файлы. Однако делать это каждый раз вручную может быть довольно муторно.
  
  ## Использование
-  1. Скачайте архив с программой отсюда [here](https://github.com/wc011/vlc_external_audio_adder/releases/download/v0.1.0/vlc_external_audio_adder.zip) или из раздела release сверху. Распакуйте архив.
+  1. Скачайте архив с программой [отсюда](https://github.com/wc011/vlc_external_audio_adder/releases/download/v0.1.0/vlc_external_audio_adder.zip) или из раздела release сверху. Распакуйте архив.
   1. Разместите исполняемый файл vlc_external_audio_adder.exe и vlc_external_audio_adder.ini где-нибудь в одной папке.
   1. В .ini файле впишите Ваш адрес программы VLC.exe (например, "C:/Program Files/VideoLAN/VLC/vlc.exe"). Адрес должен содержать только прямые слешы (/), а не обратыные (\).
   1. Выберите видео, которое хотите проиграть. Внешние аудио дорожки должны находиться пососедству и иметь похожие имена файлов. (например, smth_s01e02.mkv и smth_s01e02.mka).
