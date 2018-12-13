@@ -8,7 +8,8 @@ A program aimed to make adding external audio tracks to a video in [VLC](https:/
  The same result can be achieved in vlc gui by going to file->open multiple files, checking "show more options" and "play another media synchronously" checkboxes and then chosing audio files, but this can be rather time-consuming.
  
  ## How to use
-  1. Place the executive file and .ini somewhere in same directory.
+  1. Download zip archieve from [here](https://github.com/wc011/vlc_external_audio_adder/releases/download/v0.1.0/vlc_external_audio_adder.zip) or from the "release" section above, and unpack the archive.
+  1. Place the executive file vlc_external_audio_adder.exe and vlc_external_audio_adder.ini somewhere in same directory.
   1. In .ini file write path of your vlc.exe program (e.g."C:/Program Files/VideoLAN/VLC/vlc.exe"). It has to have slashes (/) and not backslashes (\).
   1. Select video file you want to play. External audio tracks have to be in the same folder or its subfolders and have similar names (e.g. smth_s01e02.mkv and smth_s01e02.mka).
   1. Right-click the video file, choose "Open with" in context menu and select "vlc_external_audio_adder.exe".
@@ -33,7 +34,8 @@ A program aimed to make adding external audio tracks to a video in [VLC](https:/
  Того же самого эффекта можно добиться в графическом интерфейсе VLC, если открыть меню Файл -> Открыть несколько файлов, нажать "Показать больше опций" и "Проигрывать синхронно", а затем выбрать нужные аудио файлы. Однако делать это каждый раз вручную может быть довольно муторно.
  
  ## Использование
-  1. Разместите исполняемый файл и .ini где-нибудь в одной папке.
+  1. Скачайте архив с программой отсюда [here](https://github.com/wc011/vlc_external_audio_adder/releases/download/v0.1.0/vlc_external_audio_adder.zip) или из раздела release сверху. Распакуйте архив.
+  1. Разместите исполняемый файл vlc_external_audio_adder.exe и vlc_external_audio_adder.ini где-нибудь в одной папке.
   1. В .ini файле впишите Ваш адрес программы VLC.exe (например, "C:/Program Files/VideoLAN/VLC/vlc.exe"). Адрес должен содержать только прямые слешы (/), а не обратыные (\).
   1. Выберите видео, которое хотите проиграть. Внешние аудио дорожки должны находиться пососедству и иметь похожие имена файлов. (например, smth_s01e02.mkv и smth_s01e02.mka).
   1. Нажмите на видео файл правой кнопкой мыши, выберите Открыть с помощью и выберите "vlc_external_audio_adder.exe".
